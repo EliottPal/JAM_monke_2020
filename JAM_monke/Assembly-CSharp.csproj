@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\RaceTrack\Models\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
      <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
      <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
      <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\PathFollower.cs" />
@@ -63,11 +64,10 @@
      <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\PathSceneTool.cs" />
      <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\PathSpawner.cs" />
      <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
-     <Compile Include="Assets\RaceTrack\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
      <Compile Include="Assets\Scripts\CreditsCamera.cs" />
-     <None Include="Assets\RaceTrack\race-track-lake\readmore.txt" />
+     <None Include="Assets\RaceTrack\Models\race-track-lake\readmore.txt" />
      <None Include="Assets\Models\Present\Best Sports CARS - Pro 3D Models\README.txt" />
-     <None Include="Assets\RaceTrack\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\RaceTrack\Models\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
