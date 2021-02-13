@@ -66,6 +66,10 @@
      <Compile Include="Assets\Scripts\BasicVehControls.cs" />
      <Compile Include="Assets\Scripts\CreditsCamera.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+<<<<<<< Updated upstream
+=======
+     <Compile Include="Assets\Scripts\VictoryWebcam.cs" />
+>>>>>>> Stashed changes
      <None Include="Assets\RaceTrack\Models\race-track-lake\readmore.txt" />
      <None Include="Assets\Models\Present\Best Sports CARS - Pro 3D Models\README.txt" />
      <None Include="Assets\RaceTrack\Models\race-track-lake\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
@@ -598,6 +602,7 @@
  <HintPath>D:/Program Files/Unity Hub/2019.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
+<<<<<<< Updated upstream
  <HintPath>C:/Users/Charlie/OneDrive/Documents/GitHub/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
@@ -623,6 +628,33 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/Charlie/OneDrive/Documents/GitHub/JAM_monke/JAM_monke/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+=======
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+>>>>>>> Stashed changes
  </Reference>
   </ItemGroup>
   <ItemGroup>
