@@ -13,12 +13,17 @@ public class MainMenu : MonoBehaviour
     }
 
     public void CredsScene() {
-        SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void BackToMenuFromCarSelection()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void BackToMenuFromCredits()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
     public void QuitGame()

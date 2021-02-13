@@ -146,7 +146,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495066882}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &495066884
 Camera:
   m_ObjectHideFlags: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -548,4 +548,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd4ada00dd6f1b44859e514ea3a8b09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 600
+  forwardSpeed: 200

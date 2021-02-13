@@ -408,7 +408,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 878087586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c036b9ac3ee645044afad5305e263bde, type: 3}
+  m_Script: {fileID: 11500000, guid: a1a9dd04b8c44724f9344f1ee08d4591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1105270689
@@ -491,7 +491,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1105270692}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 878087591}
+        m_MethodName: CredsScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1105270692
 MonoBehaviour:
   m_ObjectHideFlags: 0
