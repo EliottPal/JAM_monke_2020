@@ -56,6 +56,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
+     <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
+     <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\PathFollower.cs" />
+     <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\PathPlacer.cs" />
+     <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\PathSceneTool.cs" />
+     <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\PathSpawner.cs" />
+     <Compile Include="Assets\RaceTrack\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
      <Compile Include="Assets\RaceTrack\race-track-lake\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
      <Compile Include="Assets\Scripts\CreditsCamera.cs" />
      <None Include="Assets\RaceTrack\race-track-lake\readmore.txt" />
@@ -590,34 +597,42 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/eliot/Desktop/JAM/JAM_monke/JAM_monke/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/jimmy/Documents/JAM_monke/JAM_monke/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PathCreator.csproj">
+      <Project>{A71A7D7E-6508-F8F9-EAB2-0A822833012A}</Project>
+      <Name>PathCreator</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreatorEditor.csproj">
+      <Project>{64B5B38D-2F37-0AAC-9966-BFCEC1BC1241}</Project>
+      <Name>PathCreatorEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
