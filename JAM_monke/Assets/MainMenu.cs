@@ -8,11 +8,17 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("SelectionScene");
+        Debug.Log("merde");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void CredsScene() {
         SceneManager.LoadScene("Credits");
+    }
+
+    public void BackToMenuFromCarSelection()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void QuitGame()
