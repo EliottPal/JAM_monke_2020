@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class BasicVehControls : MonoBehaviour
 {
@@ -93,6 +95,9 @@ public class BasicVehControls : MonoBehaviour
 
                 transform.position.Set(transform.position.x, transform.position.y + 5f, transform.position.z);
                 transform.rotation.Set(0,0,0,0);
+            }
+            if (Input.GetKey(KeyCode.Escape)) {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
             }
         }
     }
