@@ -21,7 +21,7 @@ public class InstantiatePrefab : MonoBehaviour
         if (Manager.Instance.Value == "Groot")
         {
             var loadedPrefabResource = LoadPrefabFromFile("Past/Medieval village/Cart");
-            Instantiate(loadedPrefabResource, new Vector3((float)-260, (float)-7.8, (float)100.92), Quaternion.identity);
+            Instantiate(loadedPrefabResource, new Vector3((float)-255, (float)-8, (float)117), Quaternion.identity);
         }
 
         if (Manager.Instance.Value == "Mercold")
@@ -39,19 +39,19 @@ public class InstantiatePrefab : MonoBehaviour
         if (Manager.Instance.Value == "FefeLambo")
         {
             var loadedPrefabResource = LoadPrefabFromFile("Present/Azerilo/HQ Racing Car Model No.1203/Prefabs/Féfé Lambo");
-            Instantiate(loadedPrefabResource, new Vector3((float)-260, (float)-7.8, (float)100), Quaternion.identity);
+            Instantiate(loadedPrefabResource, new Vector3((float)-254, (float)-8.5, (float)118), Quaternion.identity);
         }
 
         if (Manager.Instance.Value == "458Italia")
         {
             var loadedPrefabResource = LoadPrefabFromFile("Present/Ferrari Italia/source/458 Italia");
-            Instantiate(loadedPrefabResource, new Vector3((float)-260, (float)-7.8, (float)100), Quaternion.identity);
+            Instantiate(loadedPrefabResource, new Vector3((float)-255, (float)-8.8, (float)116), Quaternion.identity);
         }
 
         if (Manager.Instance.Value == "TerTer")
         {
             var loadedPrefabResource = LoadPrefabFromFile("Present/Best Sports CARS - Pro 3D Models/Vehicle/SportCar20/Prefabs/Ter Ter");
-            Instantiate(loadedPrefabResource, new Vector3((float)-260, (float)-7.8, (float)100), Quaternion.identity);
+            Instantiate(loadedPrefabResource, new Vector3((float)-255, (float)-8.5, (float)117.5), Quaternion.identity);
         }
 
         if (Manager.Instance.Value == "Cyberpunk")
