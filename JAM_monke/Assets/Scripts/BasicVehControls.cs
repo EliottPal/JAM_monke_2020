@@ -104,15 +104,8 @@ public class BasicVehControls : MonoBehaviour
     void Steer()
     {
 
-        if (currentSpeed < 100)
-        {
-            SteerAngle = 13 - (currentSpeed / 10);
-        }
-        else
-        {
-            SteerAngle = 2;
-        }
-
+        SteerAngle = 16 - (currentSpeed / 10);
+  
         FL.steerAngle = SteerAngle * Input.GetAxis("Horizontal");
         FR.steerAngle = SteerAngle * Input.GetAxis("Horizontal");
     }
