@@ -1,0 +1,204 @@
+﻿
+newmtl Material~0
+Kd 0.7 0.7 0.7 
+Ka 0 0 0 
+Ks 0 0 0 
+d 1
+
+newmtl Default_03
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd body_default_01_color.png
+
+newmtl Yellow_lights_02
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd body_default_01_color_01.png
+
+newmtl White_light_02
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd body_default_01_color_02.png
+
+newmtl Redlight_02
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd body_default_01_color_03.png
+
+newmtl Window_Glass_02
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd body_default_01_color_04.png
+
+newmtl Default_04
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd door_default_01_color.png
+
+newmtl Yellow_lights_03
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd door_default_01_color_01.png
+
+newmtl Window_Glass_03
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd door_default_01_color_02.png
+
+newmtl Default_09
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd reargrill_default_01_color.png
+
+newmtl Redlight_03
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd reargrill_default_01_color_01.png
+
+newmtl Default_13
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd short_light_default_01_color.png
+
+newmtl White_light_03
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd short_light_default_01_color_01.png
+
+newmtl Default_14
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd long_light_default_01_color.png
+
+newmtl White_light_04
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd long_light_default_01_color_01.png
+
+newmtl Default_15
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd short_lightf_default_01_color.png
+
+newmtl White_light_05
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd short_lightf_default_01_color_01.png
+
+newmtl Mtrl_08
+Kd 0 0 0 
+Ka 0 1 0.25098 
+Ks 0.8 0.8 0.8 
+d 0.992157
+
+newmtl Default_12
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd littlelight_default_01_color.png
+
+newmtl Mtrl_06
+Kd 0 0 0 
+Ka 0 0 0 
+Ks 0.8 0.8 0.8 
+d 0.992157
+
+newmtl Mtrl_05
+Kd 0 0 0 
+Ka 0 0 0 
+Ks 0.8 0.8 0.8 
+d 0.992157
+
+newmtl White_light
+Kd 0 0 0 
+Ka 0.501961 1 1 
+Ks 0.8 0.8 0.8 
+d 1
+
+newmtl Redlight
+Kd 0 0 0 
+Ka 1 0 0 
+Ks 1 1 1 
+d 1
+
+newmtl Default_05
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd text_default_01_color.png
+
+newmtl Default_06
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd hub_default_01_color.png
+
+newmtl Default_07
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd wheelcover_default_01_color.png
+
+newmtl Default_08
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd frontthruster_default_01_color.png
+
+newmtl Default_10
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd rearthruster_default_01_color.png
+
+newmtl Tyre_01
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd rearwheel_tyre_color.png
+
+newmtl Default_16
+Kd 1 1 1 
+Ka 0 0 0 
+Ks 1 1 1 
+d 1
+map_Kd wiper_default_01_color.png
