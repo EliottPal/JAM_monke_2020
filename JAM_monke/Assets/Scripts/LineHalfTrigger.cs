@@ -18,7 +18,7 @@ public class LineHalfTrigger : MonoBehaviour
         EndTripper.SetActive(false);
         HalfTripper.SetActive(true);
 
-        if (LapsDone == 2)
+        if (LapsDone == 3)
             SceneManager.LoadScene("VictoryScene");
     }
 }

@@ -6,17 +6,23 @@ public class InstantiatePrefab : MonoBehaviour
 {
 
     private UnityEngine.Object LoadPrefabFromFile(string filename)
-  {
-      Debug.Log("Trying to load car prefab from file ("+filename+ ")...");
-      var loadedObject = Resources.Load("Models/" + filename);
-      return loadedObject;
- }
+    { 
+    Debug.Log("Trying to load car prefab from file ("+filename+ ")...");
+    var loadedObject = Resources.Load("Models/" + filename);
+    return loadedObject;
+    }
 
     public GameObject CarPrefab;
+    public GameObject IAOld;
+    public GameObject IAFutur;
 
     // Start is called before the first frame update
     void Start()
     {
+        int alt = Random.Range(1,3);
+        // IAOld = GameObject.Find("IAMercold");
+        // IAFutur = GameObject.Find("IACyberpunkHovercar");
+
         Debug.Log(Manager.Instance.Value);
         if (Manager.Instance.Value == "Groot")
         {
@@ -58,6 +64,14 @@ public class InstantiatePrefab : MonoBehaviour
         {
             var loadedPrefabResource = LoadPrefabFromFile("Future/CyberpunkHovercar/source/CyberpunkHovercar");
             Instantiate(loadedPrefabResource, new Vector3((float)-254, (float)-8.5, (float)119), transform.rotation * Quaternion.Euler (0f, 36.46f, 0f));
+        }
+
+        if (alt == 1) {
+            IAOld.SetActive(true);
+            IAFutur.SetActive(false);
+        } else {
+            IAFutur.SetActive(true);
+            IAOld.SetActive(false);
         }
     }
 
