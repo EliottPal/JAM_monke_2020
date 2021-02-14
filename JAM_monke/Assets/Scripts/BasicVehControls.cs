@@ -1,6 +1,7 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class BasicVehControls : MonoBehaviour
 {
@@ -36,8 +37,14 @@ public class BasicVehControls : MonoBehaviour
 	public float[] PitchingTable = {0.12f, 0.12f, 0.12f, 0.12f, 0.11f, 0.10f, 0.09f, 0.08f, 0.06f, 0.06f, 0.06f, 0.06f, 0.06f, 0.06f, 0.06f, 0.06f};
 	public float RangeDivider = 4f;
 
+    private GameObject CountDown;
+    public bool canMove = false;
+
     void Start()
     {
+        CountDown = GameObject.Find("CountdownUI");
+        Debug.Log(CountDown);
+        StartCoroutine(CountStart());
 
         FL = GameObject.Find("FL.Col").GetComponent<WheelCollider>();
         FR = GameObject.Find("FR.Col").GetComponent<WheelCollider>();
@@ -48,27 +55,46 @@ public class BasicVehControls : MonoBehaviour
         GetComponent<Rigidbody>().centerOfMass = new Vector3(COM.transform.localPosition.x * transform.localScale.x, COM.transform.localPosition.y * transform.localScale.y, COM.transform.localPosition.z * transform.localScale.z);
     }
 
+    IEnumerator CountStart() {
+        yield return new WaitForSeconds(0.5f);
+        CountDown.GetComponent<Text> ().text = "3";
+        CountDown.SetActive(true);
+        yield return new WaitForSeconds(1);
+        CountDown.SetActive(false);
+        CountDown.GetComponent<Text> ().text = "2";
+        CountDown.SetActive(true);
+        yield return new WaitForSeconds(1);
+        CountDown.SetActive(false);
+        CountDown.GetComponent<Text> ().text = "1";
+        CountDown.SetActive(true);
+        yield return new WaitForSeconds(1);
+        CountDown.SetActive(false);
+        canMove = true;
+    }
+
     void Update()
     {
-		//Functions to access.
-        Steer();
-		AutoGears();
-		Accelerate();
+        if (canMove == true) {
+            //Functions to access.
+            Steer();
+            AutoGears();
+            Accelerate();
 
-		//Defenitions.
-        currentSpeed = GetComponent<Rigidbody>().velocity.magnitude * 3.6f;
-        engineRPM = Mathf.Round((RL.rpm * gearRatio[currentGear]));
-        torque = bhp * gearRatio[currentGear];
+            //Defenitions.
+            currentSpeed = GetComponent<Rigidbody>().velocity.magnitude * 3.6f;
+            engineRPM = Mathf.Round((RL.rpm * gearRatio[currentGear]));
+            torque = bhp * gearRatio[currentGear];
 
-        if (Input.GetButton("Jump"))
-        {
-            HandBrakes();
+            if (Input.GetButton("Jump"))
+            {
+                HandBrakes();
+            }
+            if (Input.GetKey(KeyCode.R)) {
+
+                transform.position.Set(transform.position.x, transform.position.y + 5f, transform.position.z);
+                transform.rotation.Set(0,0,0,0);
+            }
         }
-		if (Input.GetKey(KeyCode.R)) {
-
-			transform.position.Set(transform.position.x, transform.position.y + 5f, transform.position.z);
-			transform.rotation.Set(0,0,0,0);
-		}
     }
 
     void Accelerate()
