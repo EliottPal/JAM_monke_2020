@@ -21,7 +21,7 @@ To play this game you need to have *Unity 2019.4.20f1* installed (you will find 
 
 Use the following link to download the game:  
 https://drive.google.com/file/d/1GcP3-rm8hO2xQCYY3X-S34ZTr_sBYJxj/view  
-Then to launch it, go to the directiory and execute *JAM_monke*
+Then to launch it, go to the directory and execute *JAM_monke*
   
 Made with love by:    
 [Charlie CHEVAL](https://github.com/Charlie50)  
