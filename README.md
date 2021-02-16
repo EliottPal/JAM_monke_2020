@@ -1,6 +1,6 @@
 ## Subject
 
-**Theme:** Past / Present / Future 
+**Theme:** Past / Present / Future   
 **Time:** 48h  
 **Secondary objectives implemented:**  
     - Gorilla  
