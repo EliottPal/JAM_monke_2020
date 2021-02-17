@@ -11,7 +11,7 @@
   
 Introducing ***Sinje Pro Racing***  
   
-A platform game made in Unity 3D  
+A racing game made in Unity 3D  
 Check out the game's trailer here:  
 https://www.youtube.com/watch?v=9O1DHg92GfM  
 
